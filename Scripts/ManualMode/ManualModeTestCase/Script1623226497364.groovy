@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:5001/')
+
+WebUI.click(findTestObject('BugzillaWebElement/Page_Bugzilla Main Page/span_File a Bug'))
+
+WebUI.click(findTestObject('BugzillaWebElement/Page_Log in to Bugzilla/input_Restrict this session to this IP addr_787195'))
+
+WebUI.closeBrowser()
+
