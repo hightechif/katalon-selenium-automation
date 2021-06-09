@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ScriptModeTestCase</description>
+   <name>ScriptModeTestCase</name>
+   <tag>Functional</tag>
+   <comment></comment>
+   <testCaseGuid>717fdac3-f47e-4d7b-8818-004707e1a83f</testCaseGuid>
+</TestCaseEntity>
