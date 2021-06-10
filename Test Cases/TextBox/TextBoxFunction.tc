@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TextBoxFunction</description>
+   <name>TextBoxFunction</name>
+   <tag>Browser</tag>
+   <comment></comment>
+   <testCaseGuid>d1d43593-9d63-4da8-b7f8-bc6f1d3d339b</testCaseGuid>
+</TestCaseEntity>
