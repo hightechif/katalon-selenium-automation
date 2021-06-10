@@ -12,13 +12,13 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser("http://localhost:5001/")
+WebUI.openBrowser('http://localhost:5001/')
 
 WebUI.maximizeWindow()
 
@@ -28,8 +28,9 @@ WebUI.click(findTestObject('Object Repository/Bugzilla/HomePage/FileBugLink'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Bugzilla/HomePage/LoginBtn'))
+WebUI.click(findTestObject('Bugzilla/LoginPage/LoginBtn'))
 
 WebUiBuiltInKeywords.delay(3)
 
 WebUiBuiltInKeywords.closeBrowser()
+

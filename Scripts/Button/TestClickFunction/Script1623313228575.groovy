@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Bugzilla/HomePage/FileBugLink'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Bugzilla/HomePage/LoginBtn'))
+WebUI.click(findTestObject('Bugzilla/LoginPage/LoginBtn'))
 
 WebUI.delay(3)
 
