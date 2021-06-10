@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ClickFunctionScriptMode</description>
+   <name>ClickFunctionScriptMode</name>
+   <tag>Browser</tag>
+   <comment></comment>
+   <testCaseGuid>bcbfa565-93c7-4dc4-9455-953cef5b7009</testCaseGuid>
+</TestCaseEntity>
