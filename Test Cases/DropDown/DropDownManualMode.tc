@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DropDownManualMode</description>
+   <name>DropDownManualMode</name>
+   <tag>DropDown</tag>
+   <comment></comment>
+   <testCaseGuid>c9d05a2b-668f-418d-925b-70668ea3e87b</testCaseGuid>
+</TestCaseEntity>
