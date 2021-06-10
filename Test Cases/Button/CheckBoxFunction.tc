@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CheckBoxButton</description>
+   <name>CheckBoxFunction</name>
+   <tag>Regression</tag>
+   <comment></comment>
+   <testCaseGuid>44c6e0f2-7ad8-4035-afb7-46ff4492216a</testCaseGuid>
+</TestCaseEntity>
