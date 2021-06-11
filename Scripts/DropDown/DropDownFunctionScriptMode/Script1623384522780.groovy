@@ -41,6 +41,10 @@ WebUI.selectOptionByValue(findTestObject('Bugzilla/EnterBugDetailScreen/Hardware
 
 int a = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/Bugzilla/EnterBugDetailScreen/Severity'))
 
+String path = WebUI.takeScreenshot()
+
+WebUI.takeScreenshot("D:/TMT-Q1-QA/week10 - Katalon/KatalonProjects/SeleniumAutomation/Screenshots")
+
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Bugzilla/HomePage/LogoutBtn'))
