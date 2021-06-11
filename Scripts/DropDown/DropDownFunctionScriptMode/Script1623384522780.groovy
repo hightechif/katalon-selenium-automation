@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('http://localhost:5001/')
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delayTime)
 
 WebUI.click(findTestObject('Bugzilla/HomePage/FileBugLink'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delayTime)
 
 WebUI.sendKeys(findTestObject('Bugzilla/LoginPage/UsernameTxtBox'), 'ridhan.fadhilah@sg-edts.com')
 
@@ -31,7 +31,7 @@ WebUI.sendKeys(findTestObject('Bugzilla/LoginPage/PasswordTxtBox'), 'bugzilla')
 
 WebUI.click(findTestObject('Bugzilla/LoginPage/LoginBtn'))
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.delayTime)
 
 WebUI.selectOptionByIndex(findTestObject('Bugzilla/EnterBugDetailScreen/Severity'), 5)
 
@@ -43,7 +43,7 @@ int a = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/Bugzilla/
 
 String path = WebUI.takeScreenshot()
 
-WebUI.takeScreenshot('D:/TMT-Q1-QA/week10 - Katalon/KatalonProjects/SeleniumAutomation/Screenshots')
+WebUI.takeScreenshot('D:/TMT-Q1-QA/week10 - Katalon/KatalonProjects/SeleniumAutomation/Screenshots/screenshot.png')
 
 WebUI.delay(3)
 
