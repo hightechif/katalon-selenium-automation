@@ -43,7 +43,7 @@ int a = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/Bugzilla/
 
 String path = WebUI.takeScreenshot()
 
-WebUI.takeScreenshot("D:/TMT-Q1-QA/week10 - Katalon/KatalonProjects/SeleniumAutomation/Screenshots")
+WebUI.takeScreenshot('D:/TMT-Q1-QA/week10 - Katalon/KatalonProjects/SeleniumAutomation/Screenshots')
 
 WebUI.delay(3)
 
@@ -52,3 +52,4 @@ WebUI.click(findTestObject('Bugzilla/HomePage/LogoutBtn'))
 WebUI.delay(3)
 
 WebUI.closeBrowser()
+
