@@ -17,3 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('http://localhost:5001/')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Bugzilla/HomePage/FileBugLink'))
+
+WebUI.delay(3)
+
+WebUI.sendKeys(findTestObject('Bugzilla/LoginPage/UsernameTxtBox'), 'ridhan.fadhilah@sg-edts.com')
+
+WebUI.sendKeys(findTestObject('Bugzilla/LoginPage/PasswordTxtBox'), 'bugzilla')
+
+WebUI.click(findTestObject('Bugzilla/LoginPage/LoginBtn'))
+
+WebUI.delay(3)
+
+WebUI.selectOptionByIndex(findTestObject('Bugzilla/EnterBugDetailScreen/Severity'), 5)
+
+WebUI.selectOptionByLabel(findTestObject('Bugzilla/EnterBugDetailScreen/Component'), 'TestComponent', false)
+
+WebUI.selectOptionByValue(findTestObject('Bugzilla/EnterBugDetailScreen/Hardware'), 'PC', false)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Bugzilla/HomePage/LogoutBtn'))
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
+
