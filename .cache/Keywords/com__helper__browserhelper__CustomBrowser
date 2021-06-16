@@ -1,0 +1,19 @@
+{
+  "keywordFileContentHash": "822D5FC6A778B722AA72A538B03509A6",
+  "keywordClasses": [
+    {
+      "name": "com.helper.browserhelper.CustomBrowser",
+      "keywordMethods": [
+        {
+          "name": "openBrowser",
+          "parameters": []
+        },
+        {
+          "name": "closeBrowser",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
