@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'com.helper.browserhelper.CustomBrowser.openBrowser'()
 
-WebUI.delay(0)
+WebUI.delay(2)
 
 CustomKeywords.'com.helper.browserhelper.CustomBrowser.closeBrowser'()
 
