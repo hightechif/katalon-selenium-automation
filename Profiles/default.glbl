@@ -12,6 +12,6 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>3</initValue>
-      <name>timeout</name>
+      <name>TimeOut</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
